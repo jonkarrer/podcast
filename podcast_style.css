@@ -1,0 +1,117 @@
+
+
+*{
+    margin:0;
+    }
+@font-face{
+    font-family:Righteous;
+    src: url(Righteous/Righteous-Regular.ttf)
+}
+
+/*Grid Control*/
+.gridContainer{
+    display: grid;
+   grid-template-columns: auto auto auto;
+    text-align: center;
+}
+.flexContainer{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    }
+
+/*Grey Circle Control*/
+.flexItemUno, .flexItemTres {
+  border-radius: 50%;
+  margin-top: 25%;
+  box-shadow: 2px 2px 2px 2px grey;
+  width: 30vw;
+  height: 30vw;
+ transition: width 1s, height 1s;
+}
+.flexItemUno{
+      background-image: url("circle750px.png");
+    background-size: cover;
+}
+.flexItemTres{
+     background-image: url("sources750px.pg.png");
+     background-size: cover;
+}
+.flexItemUno:hover{
+ transition: all .7s ease;
+height: 32vw;
+ width: 32vw;
+ box-shadow: 3px 6px 3px 6px grey;
+}
+.flexItemTres:hover{
+ transition: all .7s ease;
+ height: 32vw;
+ width: 32vw;
+ box-shadow: 3px 6px 3px 6px grey;
+}
+
+/*Logo Control*/
+.flexItem2{
+  border-radius: 50%;
+  margin-top: 20vh;
+  box-shadow: 2px 2px 2px 2px grey;
+  width: 36vw;
+  height: 36vw;
+  transition: width .8s, height .8s;
+  background-image: url("hugeLogo2000.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.flexItem2:hover{
+ transition: all 2s ease;
+ height: 38vw;
+ width: 38vw;
+box-shadow: 3px 6px 3px 6px grey;
+}
+
+/*Click Control*/
+.item-toggle{
+  min-height:85vh;
+  min-width:20vw;
+max-width: 60vw;
+  border-radius: 5%;
+  margin-top: 10vh;
+  background-color: #254059;
+  transition: all 2s ease; 
+}
+.item-toggle-grey{
+  height: 85vh;
+  width:60vw;
+  border-radius: 5%;
+  margin-top: 10vh;
+  background-color: #adb2c2;
+  transition: all .8s ease;  
+}
+
+/*Header Style*/
+
+h1{
+    display: none;
+    color:#8afd7c;
+    font-family: Righteous;
+    text-shadow: 2px 2px 5px darkred;
+    margin-top: 5vh;
+    font-size: 55px;
+}
+
+#paraBody{
+    display: none;
+    color:white;
+    margin: 30px;
+    word-spacing: 2px;
+    font-size: 3.29vh;
+    font-family: Righteous;
+    overflow: hidden;
+    
+}
+
+
+
+
+
